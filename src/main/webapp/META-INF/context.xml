@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <resource name="jdbc/WebSitePool"
+              auth="Container"
+              description="DB Connection"
+              type="javax.sql.DataSource"
+              username="postgres"
+              password="postgres"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:postgresql://localhost:5432/hack_ais?autoReconnect=true"
+              maxActive="20"
+              maxIdle="30"
+    />
+</Context>
